@@ -11,43 +11,42 @@ If we set these concerns aside and use the 35% p of success on the current 7 bal
 Source: CA Secretary of State: https://elections.cdn.sos.ca.gov//ballot-measures/pdf/initiative-totals-summary-year.pdf
 This is aggregated information about this raw set: https://elections.cdn.sos.ca.gov/ballot-measures/pdf/initiatives-by-title-and-summary-year.pdf
 
-#Looks like modern era (after 1970 or so) has more cyclical activity
+Looks like modern era (after 1970 or so) has more cyclical activity
 
 ![Ballot_Success_All_Time](./Initial_Time_Plot.png)
 
-#While many more potential ballot measures have been titled, most seem to have failed before qualifiying to 
-#be on the ballot. 2000-2020 was an especially popular period for titling ballot measures
+While many more potential ballot measures have been titled, most seem to have failed before qualifiying to 
+be on the ballot. 2000-2020 was an especially popular period for titling ballot measures
 
 ![Ballot_Success_All_Time](./Ballot_Success_All_Time.png)
 
-#Historically, the number ballot measures that are qualified and appear on the ballot is more stable, with a 
-#noticeable lull in between 1950 and 1970 or so.
+Historically, the number ballot measures that are qualified and appear on the ballot is more stable, with a noticeable lull in between 1950 and 1970 or so.
 
 ![Ballot_Success_All_Time](./Ballot_Measure_Success_72_23.png)
 
-#An inflexion occurs in the 1960 and 70s, as more potential ballot measures receive title and summary, yet fewer
-#qualify for the ballot. We could hypothesize that the relatively stable success rates for measures that qualify
-#and appear on the ballot encouraged more groups to research measures and seek title and summary. However, perhaps
-#due to the steadily rising number (and associated cost) of signatures required qualify (see: 
-#https://ballotpedia.org/Signature_requirements_for_ballot_measures_in_California), it is more difficult and 
-#expensive to place a measure on the ballot.
+An inflexion occurs in the 1960 and 70s, as more potential ballot measures receive title and summary, yet fewer
+qualify for the ballot. We could hypothesize that the relatively stable success rates for measures that qualify
+and appear on the ballot encouraged more groups to research measures and seek title and summary. However, perhaps
+due to the steadily rising number (and associated cost) of signatures required qualify (see: 
+https://ballotpedia.org/Signature_requirements_for_ballot_measures_in_California), it is more difficult and 
+expensive to place a measure on the ballot.
 
 ![Ballot_Signatures](./Ballot_Signatures.jpg)
 
-#The Qualified Approval rate 1912-1972 was about 21%, nearly doubling to 41.8% from 1972 to 2022.
-#The Titled Qualification rate decreased from 53% to 15%. It has become more difficult to qualify, however, 
-#success has become more likely once qualified. 
+The Qualified Approval rate 1912-1972 was about 21%, nearly doubling to 41.8% from 1972 to 2022.
+The Titled Qualification rate decreased from 53% to 15%. It has become more difficult to qualify, however, 
+success has become more likely once qualified. 
 
 ![Ballot_Success_Change](./Approval_Qualification_Rates.png)
 
 
 ## Conclusion
 Instead of predicting whether or not a ballot measure will fail as an independent trial, we need to predict how many people will vote for it. 
-Mr P could be useful 
+Mr P could be useful https://bookdown.org/jl5522/MRP-case-studies/introduction-to-mrp.html
 
-#Read in larger dataset for next phase - need to collect money spent for and against, polling and vote results.
-#Contributions will need to be adjusted for inflation. Also not clear if there are major events to explain
-#some years with many more or fewer things on the ballot. Here is is as a .csv if you are looking for additional unpaid projects. 
+Read in larger dataset for next phase - need to collect money spent for and against, polling and vote results.
+Contributions will need to be adjusted for inflation. Also not clear if there are major events to explain
+some years with many more or fewer things on the ballot. Here is is as a .csv if you are looking for additional unpaid projects. 
 
 Need to collect more raw data to try to train a model: 
 Voting results with demographic breakdown
